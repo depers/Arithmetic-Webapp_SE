@@ -1,0 +1,81 @@
+/*index.html*/
+body, h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+.nav{
+    position: relative;
+    height: 50px;
+    background-color: #24292e;
+}
+
+.lan-select{
+    position: absolute;
+    top: 50%;
+    left: 94%;
+    transform: translate(-50%, -50%);
+
+}
+.head-title{
+    color: white;
+    padding-left: 5%;
+    font-size: 14px;
+    line-height: 50px;
+}
+.content{
+    position: relative;
+    text-align: center;
+    height: 450px;
+    background-color: azure;
+}
+.vertical-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ready{
+    font-size: 55px;
+}
+.btn-start{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+.footer{
+    margin-top: 5%;
+    text-align: center;
+}
+.footer p{
+    font-size: 12px;
+}
+
+/*answer.html*/
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+.answer h1{
+    margin: 0px -10px 0 -10px;
+    text-align: center;
+    background-color: #cde8ef;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 220%;
+    border-radius: 0 15px 0 15px;
+}
+.express p{
+    padding: 3% 0px;
+}
+.answer-foot{
+    padding: 1% 0;
+    background-color: azure;
+}
+.sub{
+    text-align: center;
+}
+.btn-submit{
+    vertical-align: center;
+    padding: 0.5% 5%;
+}
+.result{
+    text-align: center;
+}
