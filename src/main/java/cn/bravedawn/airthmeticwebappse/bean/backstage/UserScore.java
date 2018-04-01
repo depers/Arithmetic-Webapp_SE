@@ -1,4 +1,4 @@
-package cn.bravedawn.airthmeticwebappse.bean;
+package cn.bravedawn.airthmeticwebappse.bean.backstage;
 
 import lombok.Data;
 

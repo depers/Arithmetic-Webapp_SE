@@ -24,7 +24,7 @@ body, h1, h2, h3, h4, h5, h6, p{
 .content{
     position: relative;
     text-align: center;
-    height: 450px;
+    height: 500px;
     background-color: azure;
 }
 .vertical-center{
@@ -39,7 +39,15 @@ body, h1, h2, h3, h4, h5, h6, p{
 .btn-start{
     position: absolute;
     top: 70%;
-    left: 50%;
+    left: 45%;
+    padding: 0.5% 1%;
+}
+
+.btn-start-two{
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    padding: 0.5% 1%;
 }
 .footer{
     margin-top: 5%;
@@ -62,8 +70,8 @@ body, h1, h2, h3, h4, h5, h6, p{
     font-size: 220%;
     border-radius: 0 15px 0 15px;
 }
-.express p{
-    padding: 3% 0px;
+.express div{
+    margin: 5% 0px;
 }
 .answer-foot{
     padding: 1% 0;
@@ -75,7 +83,32 @@ body, h1, h2, h3, h4, h5, h6, p{
 .btn-submit{
     vertical-align: center;
     padding: 0.5% 5%;
+    background: #109bbf;
+    border-radius: 3px;
+    color: lemonchiffon;
+    text-decoration: none;
+    font-size: 17px;
 }
 .result{
     text-align: center;
+}
+.error{
+    color: red;
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+}
+.success{
+    color: green;
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+}
+.time{
+    position: fixed;
+    top: 0%;
+    left: 10%;
+    padding: 10px 20px;
+    background: #cde8ef;
+    font-family: Helvetica, Arial, sans-serif;
 }

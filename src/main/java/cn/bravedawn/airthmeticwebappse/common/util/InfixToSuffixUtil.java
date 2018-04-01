@@ -1,8 +1,11 @@
 package cn.bravedawn.airthmeticwebappse.common.util;
 
+
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
+import java.util.UUID;
 
 /**
  * Created by 冯晓 on 2018/3/17.
@@ -11,7 +14,8 @@ public class InfixToSuffixUtil {
 
     public static void main(String[] args) {
         try {
-            System.out.println(prefixToSuffix("89,-,(,44,/,(,56,*,33,),)"));
+            System.out.println(UUID.randomUUID().toString().length());
+            System.out.println(prefixToSuffix("(,65,+,90,),*,(,99,+,24,),"));
         } catch (Exception e) {
             e.printStackTrace();
         }

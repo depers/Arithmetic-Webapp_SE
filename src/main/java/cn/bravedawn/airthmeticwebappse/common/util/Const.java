@@ -5,6 +5,12 @@ package cn.bravedawn.airthmeticwebappse.common.util;
  */
 public class Const {
 
+    // cookies name.
+    public final static String LOGIN_USER = "loginUser";
+
+    // cookies time.
+    public static final int SESSION_TIME = 60 * 60 * 24;
+
     public interface Operator {
 
         String add = "+";

@@ -1,6 +1,7 @@
 package cn.bravedawn.airthmeticwebappse.common.app;
 
-import util.RandomUtil;
+
+import cn.bravedawn.airthmeticwebappse.common.util.RandomUtil;
 
 /**
  * Created by 冯晓 on 2018/3/17.

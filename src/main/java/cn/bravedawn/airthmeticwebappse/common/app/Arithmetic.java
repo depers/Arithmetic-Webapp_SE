@@ -7,7 +7,7 @@ import cn.bravedawn.airthmeticwebappse.common.util.*;
  */
 public class Arithmetic {
 
-    private static int firstNum, secondNum, thirdNum, forthNum, result;
+    private static int firstNum, secondNum, thirdNum, forthNum;
     private static String firstOperator, secondOperator, thirdOperator;
     private final static String[] OPERATOR = {"+", "-", "*", "/"};
 
@@ -35,7 +35,7 @@ public class Arithmetic {
 
             // Convert the infix expression to a suffix expression, then calculate
             try {
-                result = SuffixToValueUtil.compute(InfixToSuffixUtil.prefixToSuffix(infixExpression));
+                SuffixToValueUtil.compute(InfixToSuffixUtil.prefixToSuffix(infixExpression));
             } catch (Exception e) {
                 // e.printStackTrace();
                 continue;
@@ -44,9 +44,9 @@ public class Arithmetic {
             StringBuffer buffer = new StringBuffer();
             String[] str = infixExpression.split(",");
             for (int i = 0; i < str.length; i++) {
-                buffer.append(str[i]);
+                buffer.append(str[i]).append(" ");
             }
-            buffer.append(" = ").append(result).append("\n");
+            buffer.append("=");
             return buffer.toString();
         }
     }

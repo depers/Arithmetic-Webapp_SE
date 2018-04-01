@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <title>Four arithmetic applets</title>
     <link rel="stylesheet" href="/static/css/style.css">
+    <script src="/static/js/jquery-3.1.1.js"></script>
 </head>
 <body>
     <!--head part-->
     <div class="nav">
+        <p id="flag" th:text="${flag}" hidden></p>
         <h1 class="head-title">Four arithmetic applets</h1>
         <select class="lan-select">
             <option value ="volvo">English</option>
@@ -18,12 +20,27 @@
     <!--body part-->
     <div class="content">
         <h1 class="ready vertical-center">Are you ready?</h1>
-        <a href="answer.html"><button class="btn-start vertical-center">Start Now!</button></a>
+        <a href="/answer.html"><button class="btn-start vertical-center">Start Now!</button></a>
+        <a href="javascript:void(0);"><button class="btn-start-two vertical-center">See Past Performance!</button></a>
     </div>
     <!--footer part-->
     <div class="footer">
         <p>Copyright 2018-depers</p>
         <p>Open-Source-Address <a href="https://github.com/">https://github.com/</a></p>
     </div>
+    <script type="text/javascript">
+        $(function () {
+            $(".btn-start-two").click(function () {
+                var flag = $("#flag").text();
+                if (flag === "1"){
+                    location.href = "/result.html"
+                }
+                else{
+                    alert("You did not participate in the test 24 hours ago!");
+                }
+            })
+
+        })
+    </script>
 </body>
 </html>
