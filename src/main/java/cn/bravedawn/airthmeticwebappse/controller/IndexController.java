@@ -44,7 +44,7 @@ public class IndexController {
             map.addAttribute("flag", 0);
         }
 
-        return "/index";
+        return "/index.html";
     }
 
     @GetMapping("/answer.html")
@@ -54,7 +54,7 @@ public class IndexController {
             expresses.add(Arithmetic.generate());
         }
         map.addAttribute("expresses", expresses);
-        return "/answer";
+        return "/answer.html";
     }
 
     @PostMapping("/answer.html")
@@ -109,7 +109,7 @@ public class IndexController {
     public String result(){
         Cookie ck = CookiesUtil.getCookieByName(request, Const.LOGIN_USER);
         if (ck != null){
-            return "/result";
+            return "/result.html";
         }
         else{
             return "/";

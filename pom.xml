@@ -63,6 +63,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>arithmetic</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
