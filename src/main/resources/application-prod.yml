@@ -1,0 +1,29 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        username: root
+        password: MyNewfx7!
+        url: jdbc:mysql://127.0.0.1/arithmetic?characterEncoding=utf-8&useSSL=false
+    jpa:
+        hibernate:
+          use-new-id-generator-mappings: false
+    mvc:
+      static-path-pattern: /static/**
+    thymeleaf:
+        prefix: classpath:/templates/
+
+
+# jackson:
+#    default-property-inclusion: non_null
+#server:
+#  context-path: /pocket
+
+# 日志文件的配置
+#logging:
+#    pattern:
+#        console: "%d - %msg%n"
+#    path: "/var/log/tomcat"
+#    file: "/var/log/tomcat/sell.log"
+#    level:
+#        cn.bravedawn.LoggerTest: debug
+#    #level: debug
