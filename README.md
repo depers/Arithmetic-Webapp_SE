@@ -1,5 +1,5 @@
 # arithmetic_webapp_se
-# 201571030107/201571030121《小学四则运算练习软件》结对项目
+> 201571030107/201571030121《小学四则运算练习软件》结对项目
 
 ## 项目Github地址
 [Arithmetic-Webapp_SE](https://github.com/depers/Arithmetic-Webapp_SE)
@@ -100,13 +100,9 @@ public static int compute(String expression) throws Exception {
 ```
 
 ## 4、程序运行
-[示例图片一](https://images2018.cnblogs.com/blog/1350176/201804/1350176-20180402225335843-1084008651.png)
 <img src="https://images2018.cnblogs.com/blog/1350176/201804/1350176-20180402225335843-1084008651.png" width = "100%" height = "100%" alt="图片名称" align=center />
-[示例图片二](https://images2018.cnblogs.com/blog/1350176/201804/1350176-20180402225343555-1468631841.png)
 <img src="https://images2018.cnblogs.com/blog/1350176/201804/1350176-20180402225343555-1468631841.png" width = "100%" height = "100%" alt="图片名称" align=center />
-[示例图片三](https://images2018.cnblogs.com/blog/1350176/201804/1350176-20180402225349905-943336654.png)
 <img src="https://images2018.cnblogs.com/blog/1350176/201804/1350176-20180402225349905-943336654.png" width = "100%" height = "100%" alt="图片名称" align=center />
-[示例图片四](https://images2018.cnblogs.com/blog/1350176/201804/1350176-20180402225355230-567473352.png)
 <img src="https://images2018.cnblogs.com/blog/1350176/201804/1350176-20180402225355230-567473352.png" width = "100%" height = "100%" alt="图片名称" align=center />
 
 ## 5、结对编程
